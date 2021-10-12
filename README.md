@@ -9,6 +9,7 @@ TalkTel has a strong presence across the country. It offers Broadband internet s
 All these services are also available as bundles for TalkTel’s customers. A bundle essentially is when a firm offers more than just one of its services to its customers. Its customers are present across its entire portfolio. However, in order to avoid the loss of customers, it needs to understand them better. Let’s understand what are the key metrics that govern its business?
 
 **Problem statement**
+
 First metric is the average revenue per user, also known as ARPU. Average revenue per user tells the story of how much money a company is making for each person using its service. It is synonymous to customer lifetime value. Generally, telecommunications companies that offer bundling services enjoy a higher ARPU.
 
 Second metric is customer churn. Customer churn is defined in a similar fashion as you have studied throughout this program. This metric measures the number of subscribers who leave and obviously, a low churn rate is ideal. Companies that experience a high churn rate are under more pressure to generate revenue from other areas or gain new customers.
@@ -21,13 +22,14 @@ As a data scientist in the marketing department of company X, help them design a
 Do you have a quantitative approach in your mind that can predict which of their existing customers are likely to discontinue their service and should be the target audience for this campaign?
 In such scenarios, you develop a model for identifying the customers who are likely to churn and should be targeted for this campaign which brings us to our next section on “Customer Churn Analysis”.
 
-o	Perform exploratory data analysis
-o	Preprocess the data
-o	Select the right model.
-o	Train the model
-o	Test the model (Predictions and reporting)
-o	Evaluate the model performance
-o	Suggest ways of improving the model
+1.	Perform exploratory data analysis
+2.	Preprocess the data
+3.	Select the right model.
+4.	Train the model
+5.	Test the model (Predictions and reporting)
+6.	Evaluate the model performance
+7.	Suggest ways of improving the model
+
 Following are some points for you to take note of, while doing the assignment:
 1. The data in some of the rows in the data set may be corrupted.
 2. Try to simplify the code & write comments for better understanding.
