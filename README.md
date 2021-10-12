@@ -42,47 +42,14 @@ Import the data file provided in assignment for building classification models u
 
 
 2.	Data collection and cleaning
-	From check data it appears there are 11 Rows out of total 7043 (0.15%) has “null” values in total charges so these rows are removed from data sets
-	Converted the “Total charges” and monthly charges” variable from floating to numeric type to ensure only positive charges
-
+i.  From check data it appears there are 11 Rows out of total 7043 (0.15%) has “null” values in total charges so these rows are removed from data sets
+ii. Converted the “Total charges” and monthly charges” variable from floating to numeric type to ensure only positive charges
 
 3.	Feature Selection & engineering
 In feature selection, we analyzed the problem statement to figure that Churn is the critical factor that we need analyze from customers tenure type, contract data
 
-
 4.	Exploratory Data Analysis (EDA)
 In this EDA we analyzed the key trends of the Customer
- 
-
-i.	Percent of Churn in data
-
-
-
-ii.	Contract vs Tenure basis
-As shown below in the chart that the Churn was more visible in month-to month contract compare to 1 year or 2 Year contract.
-
- 
-
-iii.	Churn by Contract type
-
-
-
-The above chart shows 43% Churn is seen in Monthly contractual customers as compare to 11% in 1 year and 3% in 2-year contractual customers.
-
-
-iv.	Churn by Monthly charges
-
-
-
-
-
- 
-
-
-
- 
-
-
 
 5.	Model building and Model diagnostic
 The model building followed the approach to divide the data into 70-30 where 70% data were used for training the model and 30% rows were used to test the model accuracy.
@@ -94,15 +61,16 @@ o	Support vector machine (SVM) – 80.9%
 6.	Ways of further improvement in Model
 
 
-a)	By having mode data records
+a)	**By having mode data records**
 Having more data records will lead to more data results in better and accurate models. Data records from Customer age group or other fields like “detractors” of opting other services or churn will help to analyze model more accurately and predict
-b)	Treat missing and Outlier values
+
+b)	**Treat missing and Outlier values**
 The unwanted presence of missing and outlier values in the training data often reduces the accuracy of a model or leads to a biased model. It leads to inaccurate predictions. This is because we don’t analyze the behavior and relationship with other variables correctly. As we highlighted above that 0.15% of data rows have “null” in total charges so having some assumption-based data filling or calculation done based on tenue*monthly charges to autofill the null values will improve outliers and missing values.
  
-
-c)	Multiple algorithms
+c)	**Multiple algorithms**
 Selection of right algorithm is the best approach to achieve higher accuracy of model. But it is easier said than done.
 This intuition comes with experience and incessant practice. Some algorithms are better suited to a particular type of data sets than others. Hence, we should apply all relevant models and check the performance.
-d)	Algorithm refining
+
+d)	**Algorithm refining**
 By refining and tuning the parameters like contract, payment type and other parameters to improve the accuracy of model. Also learning from the business perspective like what is the nature of customers from the value of monthly bills and services offered by the TalkTel company.
 
